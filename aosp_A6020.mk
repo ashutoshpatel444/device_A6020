@@ -14,8 +14,8 @@
 
 $(call inherit-product, device/lenovo/A6020/full_A6020.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product-if-exists, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product-if-exists, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
