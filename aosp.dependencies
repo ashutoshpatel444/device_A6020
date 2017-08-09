@@ -33,12 +33,6 @@
     "repository": "android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
     "branch":       "cm-14.1"
-  },
-  {
-    "remote":       "github",
-    "repository": "android_hardware_cyanoagen"
-    "target_path": "hardware/cyanogen",
-    "branch":       "cm-14.1"
+ 
   }
-
 ]
