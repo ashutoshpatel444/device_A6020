@@ -14,7 +14,9 @@
 
 $(call inherit-product, device/lenovo/A6020/A6020.mk)
 
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit from Omni custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -22,7 +24,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A6020
-PRODUCT_NAME := aosp_A6020
+PRODUCT_NAME := omni_A6020
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Vibe K5
 PRODUCT_MANUFACTURER := Lenovo
