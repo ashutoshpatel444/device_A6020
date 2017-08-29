@@ -14,12 +14,7 @@
 
 $(call inherit-product, device/lenovo/A6020/A6020.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product-if-exists, vendor/carbon/config/common.mk)
-
-
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
