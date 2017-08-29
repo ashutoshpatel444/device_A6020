@@ -1,8 +1,9 @@
 [
     {
-	"repository":   "harry8242/android_kernel_lenovo_msm8916",
+	"remote":	"github",
+	"repository":   "harry8242/kernel_lenovo_msm8916",
 	"target_path":  "kernel/lenovo/msm8916",
-	"branch":       "cm-14.1"
+	"revision":     "cm-14.1"
     },
     {
         "remote":       "github",
