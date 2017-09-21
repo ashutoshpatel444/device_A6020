@@ -530,8 +530,6 @@ on property:sys.boot_completed=1
     write /dev/cpuset/system-background/cpus 4-6
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/camera-daemon/cpus 4-7
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor	interactive
-    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor interactive
 
     start qcom-sh
     start qcom-mem
