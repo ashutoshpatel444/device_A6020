@@ -9,8 +9,10 @@ PRODUCT_PACKAGES += \
     Snap \
 #   libboringssl-compat \
 
-# libboringssl-compat
-
 # Stlport
 #PRODUCT_PACKAGES += \
 #    libstlport
+
+#SnapdragonCamera2
+PRODUCT_PACKAGES += \
+    SnapdragonCamera2	
